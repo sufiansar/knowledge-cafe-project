@@ -1,73 +1,79 @@
 [
-    {
-      "id": "1",
-      "cover": "https://example.com/image1.jpg",
-      "author_name": "john doe",
-      "author_img": "https://example.com/author1.jpg",
-      "title": "how to learn javascript",
-      "posted_date": "2024-12-01",
-      "reading_time": 5,
-      "hashtags": ["#javascript", "#programming", "#webdev"]
-    },
-    {
-      "id": "2",
-      "cover": "https://example.com/image2.jpg",
-      "author_name": "jane smith",
-      "author_img": "https://example.com/author2.jpg",
-      "title": "10 tips for effective time management",
-      "posted_date": "2024-11-25",
-      "reading_time": 7,
-      "hashtags": ["#productivity", "#timemanagement", "#selfhelp"]
-    },
-    {
-      "id": "3",
-      "cover": "https://example.com/image3.jpg",
-      "author_name": "ali khan",
-      "author_img": "https://example.com/author3.jpg",
-      "title": "mastering css grid layout",
-      "posted_date": "2024-11-28",
-      "reading_time": 8,
-      "hashtags": ["#css", "#frontend", "#webdesign"]
-    },
-    {
-      "id": "4",
-      "cover": "https://example.com/image4.jpg",
-      "author_name": "lisa wong",
-      "author_img": "https://example.com/author4.jpg",
-      "title": "understanding react hooks",
-      "posted_date": "2024-12-03",
-      "reading_time": 10,
-      "hashtags": ["#react", "#javascript", "#webdev"]
-    },
-    {
-      "id": "5",
-      "cover": "https://example.com/image5.jpg",
-      "author_name": "mohamed abdullah",
-      "author_img": "https://example.com/author5.jpg",
-      "title": "python tips for beginners",
-      "posted_date": "2024-12-05",
-      "reading_time": 6,
-      "hashtags": ["#python", "#coding", "#beginner"]
-    },
-    {
-      "id": "6",
-      "cover": "https://example.com/image6.jpg",
-      "author_name": "emily clark",
-      "author_img": "https://example.com/author6.jpg",
-      "title": "a guide to mindfulness meditation",
-      "posted_date": "2024-11-30",
-      "reading_time": 12,
-      "hashtags": ["#mindfulness", "#meditation", "#selfcare"]
-    },
-    {
-      "id": "7",
-      "cover": "https://example.com/image7.jpg",
-      "author_name": "mike johnson",
-      "author_img": "https://example.com/author7.jpg",
-      "title": "exploring the basics of git",
-      "posted_date": "2024-12-06",
-      "reading_time": 4,
-      "hashtags": ["#git", "#versioncontrol", "#devtools"]
-    }
-  ]
-  
+  {
+    "id": "1",
+    "cover": "/public/images/1.jpg",
+    "author_name": "john doe",
+    "author_img": "/public/images/boy1.png",
+    "title": "how to learn javascript",
+    "posted_date": "2024-12-01",
+    "reading_time": "10",
+    "status": "Mark as read",
+    "hashtags": ["#javascript", "#programming", "#webdev"]
+  },
+  {
+    "id": "2",
+    "cover": "/public/images/2.png",
+    "author_name": "jane smith",
+    "author_img": "/public/images/boy1.png",
+    "title": "10 tips for effective time management",
+    "posted_date": "2024-11-25",
+    "reading_time": "02",
+    "status": "Mark as read",
+    "hashtags": ["#productivity", "#timemanagement", "#selfhelp"]
+  },
+  {
+    "id": "3",
+    "cover": "/public/images/3.png",
+    "author_name": "ali khan",
+    "author_img": "/public/images/boy1.png",
+    "title": "mastering css grid layout",
+    "posted_date": "2024-11-28",
+    "reading_time": "03",
+    "status": "Mark as read",
+    "hashtags": ["#css", "#frontend", "#webdesign"]
+  },
+  {
+    "id": "4",
+    "cover": "/public/images/4.jpg",
+    "author_name": "lisa wong",
+    "author_img": "/public/images/boy1.png",
+    "title": "understanding react hooks",
+    "posted_date": "2024-12-03",
+    "reading_time": "05",
+    "status": "Mark as read",
+    "hashtags": ["#react", "#javascript", "#webdev"]
+  },
+  {
+    "id": "5",
+    "cover": "/public/images/5.jpg",
+    "author_name": "mohamed abdullah",
+    "author_img": "/public/images/boy1.png",
+    "title": "python tips for beginners",
+    "posted_date": "2024-12-05",
+    "reading_time": "07",
+    "status": "Mark as read",
+    "hashtags": ["#python", "#coding", "#beginner"]
+  },
+  {
+    "id": "6",
+    "cover": "/public/images/6.jpg",
+    "author_name": "emily clark",
+    "author_img": "/public/images/boy1.png",
+    "title": "a guide to mindfulness meditation",
+    "posted_date": "2024-11-30",
+    "reading_time": "15",
+    "status": "Mark as read",
+    "hashtags": ["#mindfulness", "#meditation", "#selfcare"]
+  },
+  {
+    "id": "7",
+    "cover": "/public/images/7.jpg",
+    "author_name": "mike johnson",
+    "author_img": "/public/images/boy1.png",
+    "title": "exploring the basics of git",
+    "posted_date": "2024-12-06",
+    "reading_time": "10",
+    "status": "Mark as read",
+    "hashtags": ["#git", "#versioncontrol", "#devtools"]
+  }
+]
