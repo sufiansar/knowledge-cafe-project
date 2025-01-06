@@ -13,9 +13,14 @@ function App() {
 
   // Spent time on read the code and understand the logic
   const [readingTime, setreadingTime] = useState(0);
-  const handleSpentTime = (time) => {
-    const newTime = readingTime + time;
+  const handleSpentTime = (id, time) => {
+    console.log(time);
+    const newTime = readingTime + parseInt(time);
     setreadingTime(newTime);
+
+    // removeingspnent time when click on mark as read
+    const newBookMarks = bookmarks.filter((blog) => blog.id !== id);
+    setBookMarks(newBookMarks);
   };
   return (
     <>

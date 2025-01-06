@@ -10,6 +10,7 @@ const SingleBlog = ({ seblog, handleBookMark, handleSpentTime }) => {
     reading_time,
     hashtags,
     status,
+    id,
   } = seblog;
 
   return (
@@ -34,7 +35,7 @@ const SingleBlog = ({ seblog, handleBookMark, handleSpentTime }) => {
       <h1 className="text-2xl font-bold mt-5">{title}</h1>
       <h2 className="mt-4 ">{hashtags}</h2>
       <button
-        onClick={() => handleSpentTime(reading_time)}
+        onClick={() => handleSpentTime(id, reading_time)}
         className="btn btn-primary mt-4 text-xl font-bold "
       >
         {status}
